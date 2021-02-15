@@ -15,6 +15,14 @@ For help with tailwind: https://tailwindcss.com/docs
 - paste the config you copied in the "Config" tab
 - use this playground to preview HTML
 
+## Deployment
+
+- make your changes
+- run `npm run build` to re-generate the files inside the `dist/` folder
+- create a new git commit and push
+
+Then the website will automatically use the new files in `dist/` (that's all it needs).
+
 ## External linking
 
 Keep the folder structure because the paths are linked to directly from webflow as per below:
