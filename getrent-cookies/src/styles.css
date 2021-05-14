@@ -1,0 +1,4 @@
+/* FIX: Load some elements invisible at first, otherwise they flicker between when the page loads and when Alpine.js loads (async). */
+[x-cloak] {
+  opacity: 0;
+}
