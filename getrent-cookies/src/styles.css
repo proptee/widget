@@ -2,3 +2,7 @@
 [x-cloak] {
   opacity: 0;
 }
+
+/* TailwindCSS */
+@tailwind components;
+@tailwind utilities;
